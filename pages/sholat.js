@@ -51,7 +51,7 @@ export default function JadwalPage() {
 
     return (
         <Layout>
-            <h1 className="sticky top-20 z-50 p-6 lg:px-5 text-lg font-semibold bg-white border shadow-md">Jadwal Sholat</h1>
+            <h1 className="sticky top-20 z-50 p-6 lg:px-5 text-lg font-semibold text-gray-900 bg-white border shadow-md">Jadwal Sholat</h1>
             <div className="p-6 md:h-screen">
                 <div className="md:flex md:flex-row gap-x-8 gap-y-4">
                     <div className="basis-2/3 border rounded-md shadow-md md:mb-0 mb-4">

@@ -51,7 +51,7 @@ export default function DropSearchQuran({ setSelected }) {
 
     return (
         <div className="relative p-4 lg:w-1/2">
-            <label htmlFor="searchDropdown" className="block font-semibold mb-2">
+            <label htmlFor="searchDropdown" className="block font-semibold mb-2 text-black">
                 Cari Surat:
             </label>
 
@@ -62,7 +62,7 @@ export default function DropSearchQuran({ setSelected }) {
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
                 onFocus={() => setIsOpen(true)}
-                className="w-full p-3 border rounded-md text-sm bg-white shadow-md focus:outline-none focus:ring-2"
+                className="w-full p-3 border rounded-md text-sm bg-white shadow-md text-black focus:outline-none focus:ring-2"
             >
             </input>
 

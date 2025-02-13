@@ -59,7 +59,7 @@ export default function SearchableDropdown({ setSelected }) {
 
     return (
         <div className="relative p-4 lg:w-1/2">
-            <label htmlFor="searchDropdown" className="block font-semibold mb-2">
+            <label htmlFor="searchDropdown" className="block font-semibold mb-2 text-black">
                 Pilih Wilayah:
             </label>
             {/* Input Pencarian */}
@@ -70,12 +70,12 @@ export default function SearchableDropdown({ setSelected }) {
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
                 onFocus={() => setIsOpen(true)}
-                className="w-full p-3 border rounded-md text-sm bg-white shadow-md focus:outline-none focus:ring-2"
+                className="w-full p-3 border rounded-md text-sm text-black bg-white shadow-md focus:outline-none focus:ring-2"
             />
 
             {/* Dropdown */}
             {isOpen && search && (
-                <ul className="absolute z-10 w-full bg-white border rounded-md shadow-md mt-1 max-h-60 overflow-auto">
+                <ul className="absolute z-10 w-4/5 bg-white border rounded-md shadow-md mt-1 max-h-60 overflow-auto">
                     {filteredOptions.length > 0 ? (
                         filteredOptions.map((wilayah) => (
                             <li

@@ -55,7 +55,7 @@ export default function Murattal() {
 
     return (
         <Layout>
-            <h1 className="sticky top-20 z-50 p-6 lg:px-5 text-lg font-semibold bg-white border shadow-md">Murattal</h1>
+            <h1 className="sticky top-20 z-50 p-6 lg:px-5 text-lg font-semibold text-gray-900 bg-white border shadow-md">Murattal</h1>
             <div className="p-6 md:h-svh">
                 <div className="md:flex-row gap-y-4 justify-center">
                     <div className="border rounded-md shadow-md md:mb-0 mb-4">
@@ -76,10 +76,10 @@ export default function Murattal() {
                         <div className="flex justify-center p-4">
                             <div className=" border rounded-md shadow-md md:mb-0 mb-4 p-6 w-full md:w-4/5">
                                 <div className="flex justify-between md:justify-around">
-                                    <h1 className="md:text-xl text-sm text-right font-bold">
+                                    <h1 className="md:text-xl text-sm text-right font-bold text-black">
                                         {suratId == null ? "Pilih surat terlebih dahulu!" : `Surat ${suratId}`}
                                     </h1>
-                                    <h1 className="md:text-xl text-sm font-bold ">
+                                    <h1 className="md:text-xl text-sm font-bold text-black">
                                         {nameLong}
                                     </h1>
                                 </div>
@@ -103,12 +103,12 @@ export default function Murattal() {
                                     </h1>
                                 </div>
                                 <div className="flex justify-between md:justify-around mt-4">
-                                    <h1 className="md:text-xl text-sm leading-6 font-light ">
+                                    <h1 className="md:text-xl text-sm leading-6 font-light text-black">
                                         {tafsir}
                                     </h1>
                                 </div>
                                 <div className="flex justify-between md:justify-around mt-4">
-                                <audio key={audio} controls className="w-full">
+                                <audio key={audio} controls className="w-full text-black">
                                     <source
                                     src={audio}
                                     type="audio/mp3"
@@ -118,7 +118,7 @@ export default function Murattal() {
                                 </div>
                             </div>
                         </div>
-                        <h1 className="px-4 lg:px-5 text-sm font-light">*Jika audio tidak muncul pastikan koneksi internet anda stabil</h1>
+                        <h1 className="px-4 lg:px-5 text-sm font-light text-black">*Jika audio tidak muncul pastikan koneksi internet anda stabil</h1>
                     </div>
                 </div>
             </div>
