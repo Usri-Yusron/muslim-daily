@@ -65,8 +65,8 @@ export default function Pilihan() {
     return (
         <Layout>
             <h1 className="sticky top-20 z-50 p-6 lg:px-5 text-lg font-semibold text-gray-900 bg-white">Doa Pilihan</h1>
-            <div className="px-6 pb-6 md:h-svh">
-                <div className="p-6 border rounded-md shadow-md h-fit">
+            <div className="px-6 pb-6 ">
+                <div className="p-6 border rounded-md shadow-md h-fit mb-4">
                     {loading ? (
                         <div className="mt-4 flex items-center justify-center">
                             <Loader />
@@ -74,7 +74,7 @@ export default function Pilihan() {
                     ) : error ? (
                         <p className="text-center text-red-500">{error}</p>
                     ) : (
-                        <div className="p-4 border rounded-md shadow-md">
+                        <div className="p-4 ">
                             <h2 className="text-base font-semibold text-black">{random?.judul}</h2>
                             <p className="text-right text-2xl font-arabic mt-2 text-black">{random?.arab}</p>
                             <p className="mt-2 text-black">{random?.indo}</p>
