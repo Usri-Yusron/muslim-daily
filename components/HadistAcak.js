@@ -44,7 +44,7 @@ export default function Hadits() {
 
     return (
         <div className="p-6 ">
-            <h1 className="text-xl font-bold text-center mb-4">Hadits Acak</h1>
+            <h1 className="text-xl font-bold text-center text-black mb-4">Hadits Acak</h1>
 
             {loading ? (
                 <div className="mt-4 flex items-center justify-center">

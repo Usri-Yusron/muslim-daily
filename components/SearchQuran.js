@@ -67,7 +67,7 @@ export default function DropSearchQuran({ setSelected }) {
             </input>
 
             {isOpen && search && (
-                <ul className="absolute z-10 w-4/5 bg-white border rounded-md shadow-md mt-1 max-h-60 overflow-auto">
+                <ul className="absolute z-10 w-4/5 bg-white border text-black rounded-md shadow-md mt-1 max-h-60 overflow-auto">
                     {filteredOptions.length > 0 ? (
                         filteredOptions.map((surat) => (
                             <li
