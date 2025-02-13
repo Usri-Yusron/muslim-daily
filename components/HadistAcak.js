@@ -63,7 +63,7 @@ export default function Hadits() {
                 onClick={fetchHadits}
                 className="mt-4 w-full p-3 bg-blue-500 text-white rounded-md hover:bg-blue-600"
             >
-                Ambil Hadits Baru
+                Hadits Baru
             </button>
         </div>
     );

@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import Layout from "@/components/Layout";
 import Loader from "@/components/ui/loader";
 import Error from "@/components/ui/error";
-import DropSearchQuran from "@/components/SearchQuran";
 
 export default function Pilihan() {
     const [option, setOption] = useState(null);
@@ -86,7 +85,7 @@ export default function Pilihan() {
                         onClick={fetchDoaRandom}
                         className="mt-4 w-full p-3 bg-blue-500 text-white rounded-md hover:bg-blue-600"
                     >
-                        Ambil Hadits Baru
+                        Doa Baru
                     </button>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-4">
