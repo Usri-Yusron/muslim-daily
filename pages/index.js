@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <Layout>
       <BackgroundBeamsWithCollision>
-      <div className="mx-auto max-w-2xl py-32 lg:py-20 content-center">
+      <div className="mx-auto max-w-2xl content-center">
         <div className="hidden sm:mb-8 sm:flex sm:justify-center">
           <div className="relative rounded-full px-3 py-1 text-sm/6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
             Jangan lupa sujud untuk hal-hal yang belum terwujud.     
@@ -21,13 +21,13 @@ export default function Home() {
         </div>
         <div className="text-center px-6 lg:px-8">
           <h1 className="text-5xl font-semibold tracking-tight text-balance text-gray-900 sm:text-7xl">
-            Manage your money and time
+            Muslim daily 
           </h1>
           <p className="mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8">
           Dan carilah pada apa yang telah dianugerahkan Allah kepadamu (kebahagiaan) negeri akhirat, dan janganlah kamu melupakan bagianmu 
           dari (kenikmatan) dunia.
           </p>
-          <p className="text-md font-medium text-pretty text-gray-500 sm:text-xl/8">
+          <p className="text-md font-bold text-pretty text-gray-500 sm:text-xl/8">
             (Qs.Al-Qasas [28]: 77)
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
